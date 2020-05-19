@@ -1,6 +1,9 @@
 version: 2.1
 jobs:
   build:
+    branches:
+      only:
+        - master
     docker:
       - image: alpine:3.7
     steps:
