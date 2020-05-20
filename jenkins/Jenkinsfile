@@ -9,16 +9,16 @@ pipeline {
         CI = 'true'
     }
     stages {
-        stage('Prepare') {
-            steps {
-                sh "npm install yarn"
-            }
-        }
-        stage('Build') {
-            steps {
-                sh 'yarn install'
-            }
-        }
+        // stage('Prepare') {
+        //     steps {
+        //         sh "npm install yarn"
+        //     }
+        // }
+        // stage('Build') {
+        //     steps {
+        //         sh 'yarn install'
+        //     }
+        // }
         stage('Deliver') {
             steps {
                 sh 'chmod -R 777 ./jenkins/scripts'
