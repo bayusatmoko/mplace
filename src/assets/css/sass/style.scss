@@ -1,2 +1,66 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500");
+
+.timer {
+  font-size: 20px;
+  color: white;
+  text-align:center;
+  background: #388659;
+  .day, .hour, .min, .sec {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 5px;
+    .format {
+      font-family: 'Montserrat-regular', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      //font-weight: 300;
+      //font-size: 14px;
+      //@include margin-start(5);
+      //display: inline-block;
+      opacity: 0.8;
+      width: 60px;
+    }
+  }
+  .number{
+    padding: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+  }
+  .separator{
+    padding-left: 5px;
+    border-radius: 0;
+    display: inline-block;
+    width: 0;
+    text-align: center;
+  }
+  .message {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .status-tag{
+    margin: 10px auto;
+    padding: 8px 0;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    border-radius: 15px;
+    &.upcoming{
+      background-color: lightGreen;
+    }
+    &.running{
+      background-color: gold;
+    }
+    &.expired{
+      background-color: silver;
+    }
+  }
+}
