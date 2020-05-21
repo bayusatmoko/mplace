@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <v-container fluid class="top-landing" v-on:resize="onResize($event)">
+    <v-container fluid class="top-landing" v-on:resize="onResize($event)" style="user-select:none;">
       <v-row
         style="margin-top: 20px; height: 210px;"
         :justify="'space-between'"
@@ -23,7 +23,7 @@
              style="height: 200px; margin-left: 141px;"
           >
             <v-col cols="5">
-              <span class="question ">Belanja Apa Hari Ini?</span>
+              <span class="question">Belanja Apa Hari Ini?</span>
               <div class="pt-8">
                 <span class="txt font-weight-bold">Gets id </span>
                 <span class="txt">
@@ -122,9 +122,15 @@ export default {
     color: #5A5B5B;
   }
   .top-landing {
-    height: 860px;
-    background: url("../assets/landing-bg.jpg") no-repeat;
-    background-size: 1440px 860px;
+    min-height: 860px;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    background: url("../assets/landing-bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .shop-btn {
     width: 157px!important;
