@@ -14,7 +14,7 @@
               <router-link class="link" to="/">Blog</router-link>
               <router-link class="link" to="/about">Hubungi Kami</router-link>
             </div>
-              <p class="cs-text-right text-center">Coming Soon</p>
+              <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p>
           </div>
         </v-col>
       </v-row>
@@ -40,7 +40,7 @@
             </v-col>
             <v-col cols="2" />
             <v-col cols="4">
-              <div class="timer" style="margin-left:10px; height: 120px; width: 380px; border-radius: 15px; display:flex; justify-content: center; align-items: center;">
+              <div class="timer" style="margin-left:10px; height: 120px; width: 380px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
                 endtime="Jul 8, 2020 00:37:25"
@@ -87,11 +87,11 @@ export default {
       }.bind(this), 2000)
     },
     onResize () {
-      console.log()
-      if (window.innerWidth < 700) {
+      console.log(window.innerWidth)
+      if (window.innerWidth < 1000) {
         this.notResize = false
       }
-      if (window.innerWidth > 700) {
+      if (window.innerWidth > 1000) {
         this.notResize = true
       }
     }
