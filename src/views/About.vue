@@ -42,9 +42,9 @@
               </div>
             </v-col>
             <v-col cols="2" />
-            <v-col cols="3">
+            <v-col cols="5">
               <p class="cs-text-right text-center" style="margin-top: -35px;" v-show="notResize">Coming Soon</p>
-              <div class="timer" style="height: 120px; width: 380px; margin-left:80px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
+              <div class="timer" style="height: 120px; width: 380px; margin-left:90px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
                 endtime="Jul 8, 2020 00:37:25"
@@ -176,7 +176,7 @@ export default {
 
   .cs-text-right {
     margin-bottom: 10px;
-    margin-left: 95px!important;
+    /* margin-left: 95px!important; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
