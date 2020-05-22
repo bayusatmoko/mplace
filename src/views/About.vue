@@ -17,7 +17,6 @@
               <router-link class="link" to="/">Blog</router-link>
               <router-link class="link" to="/about">Hubungi Kami</router-link>
             </div>
-              <!-- <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p> -->
           </div>
         </v-col>
       </v-row>
@@ -44,7 +43,7 @@
             </v-col>
             <v-col cols="2" />
             <v-col cols="3">
-              <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p>
+              <p class="cs-text-right text-center" style="margin-top: -35px;" v-show="notResize">Coming Soon</p>
               <div class="timer" style="height: 120px; width: 380px; margin-left:80px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
