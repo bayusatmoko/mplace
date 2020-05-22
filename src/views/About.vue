@@ -122,7 +122,7 @@ export default {
     color: #5A5B5B;
   }
   .top-landing {
-    min-height: 1024px;
+    min-height: 860px;
     min-width: 1024px;
     width: 100%;
     height: auto;
@@ -154,8 +154,8 @@ export default {
 
   .link {
     text-decoration: none;
-    margin-left: 33px;
-    font-family: 'Montserrat-bold', sans-serif;
+    margin-left: 35px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
