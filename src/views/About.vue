@@ -5,7 +5,10 @@
         style="margin-top: 20px; height: 210px;"
         :justify="'space-between'"
       >
-        <v-col cols="6" />
+        <v-col cols="1"/>
+        <v-col cols="5">
+          <img src="../assets/Logo.jpg" alt="Gets id">
+        </v-col>
         <v-col cols="6">
           <div style="display: flex; flex-direction: column; height: 215px; justify-content: space-between;">
             <div class="link-group" v-show="notResize">
@@ -14,15 +17,16 @@
               <router-link class="link" to="/">Blog</router-link>
               <router-link class="link" to="/about">Hubungi Kami</router-link>
             </div>
-              <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p>
+              <!-- <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p> -->
           </div>
         </v-col>
       </v-row>
           <v-row
             :justify="'start'"
-             style="height: 200px; margin-left: 141px;"
+             style="height: 200px;"
           >
-            <v-col cols="5">
+            <v-col cols="1" />
+            <v-col cols="4">
               <span class="question">Belanja Apa Hari Ini?</span>
               <div class="pt-8">
                 <span class="txt font-weight-bold">Gets id </span>
@@ -39,8 +43,9 @@
               </div>
             </v-col>
             <v-col cols="2" />
-            <v-col cols="4">
-              <div class="timer" style="margin-left:10px; height: 120px; width: 380px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
+            <v-col cols="3">
+              <p class="cs-text-right text-center" v-show="notResize">Coming Soon</p>
+              <div class="timer" style="height: 120px; width: 380px; margin-left:80px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
                 endtime="Jul 8, 2020 00:37:25"
@@ -122,7 +127,7 @@ export default {
     color: #5A5B5B;
   }
   .top-landing {
-    min-height: 860px;
+    min-height: 1080px;
     min-width: 1024px;
     width: 100%;
     height: auto;
@@ -131,18 +136,6 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-  .shop-btn {
-    width: 157px!important;
-    height: 50px!important;
-    letter-spacing: normal;
-    margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    text-transform: none;
-    color: white;
   }
 
   .gplay {
@@ -154,7 +147,7 @@ export default {
 
   .link {
     text-decoration: none;
-    margin-left: 35px;
+    margin-left: 45px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -169,7 +162,7 @@ export default {
 
   .link-group  {
     padding-top: 20px;
-    margin-left: 13px;
+    margin-left: 23px;
   }
 
   .cs-text {
@@ -184,7 +177,7 @@ export default {
 
   .cs-text-right {
     margin-bottom: 10px;
-    margin-left: 68px;
+    margin-left: 95px!important;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
