@@ -122,7 +122,7 @@ export default {
     color: #5A5B5B;
   }
   .top-landing {
-    min-height: 860px;
+    min-height: 1024px;
     min-width: 1024px;
     width: 100%;
     height: auto;
