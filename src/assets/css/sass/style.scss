@@ -64,7 +64,21 @@
     }
   }
 }
-
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+body * {
+  font-family: "Montserrat", sans-serif !important;
+}
+div {
+  font-family: "Montserrat", sans-serif !important;
+}
+div * {
+  font-family: "Montserrat", sans-serif !important;
+}
 .shop-btn {
   width: 157px!important;
   height: 50px!important;
