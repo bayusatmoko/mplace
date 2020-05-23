@@ -69,7 +69,7 @@
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
                 endtime="Jul 8, 2020 00:37:25"
-                trans="{
+                trans='{
          "day":"Hari",
          "hours":"Jam",
          "minutes":"Menit",
@@ -81,8 +81,7 @@
             "expired":"Expired",
             "running":"Running",
             "upcoming":"Future"
-           }}"
-              />
+           }}'/>
             </div>
           </v-col>
         </v-row>
