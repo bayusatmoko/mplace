@@ -21,31 +21,35 @@
             </div>
           </v-col>
         </v-row>
-          <v-row
-            :justify="'start'"
-             style="height: 200px;"
-          >
-            <v-col cols="1" />
-            <v-col cols="4">
-              <span class="question">Belanja Apa Hari Ini?</span>
-              <div class="pt-8">
-                <span class="txt font-weight-bold">Gets id </span>
-                <span class="txt">
+        <v-row
+          :justify="'start'"
+          style="height: 200px;"
+        >
+          <v-col cols="1"/>
+          <v-col cols="5">
+            <span class="question">Belanja Apa Hari Ini?</span>
+            <div class="pt-8">
+              <span class="txt font-weight-bold">Gets id </span>
+              <span class="txt">
                 terhubung dengan banyak toko sembako, tempat makan, jasa pesan dan antar hingga toko buah dan sayur untuk memenuhi kebutuhan kamu.
                 </span>
-              </div>
-              <p/>
-              <v-btn :loading="isLoading" class="shop-btn" color="#388659" elevation="6" @click="goHome">Belanja Yuk</v-btn>
-              <div>
+            </div>
+            <p/>
+            <v-btn :loading="isLoading" class="shop-btn" color="#388659" elevation="6" @click="goHome">Belanja Yuk
+            </v-btn>
+            <div>
               <a>
-                <img class="gplay" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-                  <p class="cs-text">Coming Soon</p>
-              </div>
-            </v-col>
-            <v-col cols="2" />
-            <v-col cols="5">
-              <p class="cs-text-right text-center" style="margin-top: -35px;" v-show="notResize">Coming Soon</p>
-              <div class="timer" style="height: 120px; width: 380px; margin-left:90px; border-radius: 15px; display:flex; justify-content: center; align-items: center;" v-show="notResize">
+                <img class="gplay" alt='Get it on Google Play'
+                     src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+              <p class="cs-text">Coming Soon</p>
+            </div>
+          </v-col>
+          <v-col cols="2"/>
+          <v-col cols="3">
+            <p class="cs-text-right text-center" style="margin-top: -35px;" v-show="notResize">Coming Soon</p>
+            <div class="timer"
+                 style="height: 120px; width: 380px; margin: 0 auto; border-radius: 15px; display:flex; justify-content: center; align-items: center;"
+                 v-show="notResize">
               <Timer
                 starttime="Jul 5, 2020 00:37:25"
                 endtime="Jul 8, 2020 00:37:25"
@@ -63,79 +67,114 @@
             "upcoming":"Future"
            }}'
               />
-              </div>
-            </v-col>
-            </v-row>
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
     <div class="second">
       <div class="display-1">
-            Layanan Kami
+        Layanan Kami
       </div>
       <v-row justify="center">
-            <v-col cols="4">
-              <p>
-                Kami meng hubungkan pelanggan dengan para penjual untuk melakukan
-                transaksi kebutuhan sehari - hari melalui empat layanan unggulan
-                yaitu Gets Food, Gets Fresh, Gets Daily, dan Gets Service
-              </p>
-            </v-col>
-          </v-row>
-      </div>
-      <div class="third">
-        <v-row justify="center" class="mt-10">
-          <div class="card mx-5">
-            <v-col align="center">
-              <img src="img/penjual.png" />
-            </v-col>
-            <div style="text-align: center; margin-top:-35px">
-              <h2>PENJUAL</h2>
-              <p>
-                Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
-                Terima pesanan secara online dan jangkau lebih banyak pelanggan
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <v-col align="center">
-              <img src="img/pembeli.png" />
-            </v-col>
-            <div style="text-align: center; margin-top:-35px">
-              <h2>PEMBELI</h2>
-              <p>
-                Nikmati kemudahan untuk belanja dengan satu aplikasi. Gets id
-                hadir untuk membantu belanja kebutuhan harian kamu dengan mudah,
-                cepat dan aman.
-              </p>
-            </div>
-          </div>
-        </v-row>
-      </div>
-      <div class="fourth">
-        <div style="text-align: center" class="display-1">Tentang Kami</div>
-        <v-row align="center">
-          <v-col xs6>
-            <img style="width:80%" src="img/storefront.png" />
+        <v-col cols="8">
+          <p style="font-size: 25px;">
+            Kami meng hubungkan pelanggan dengan para penjual untuk melakukan
+            transaksi kebutuhan sehari - hari melalui empat layanan unggulan
+            yaitu Gets Food, Gets Fresh, Gets Daily, dan Gets Service
+          </p>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="third">
+      <v-row justify="center" class="mt-10">
+        <div class="card mx-5">
+          <v-col align="center">
+            <img src="img/penjual.png"/>
           </v-col>
-          <v-col xs6>
-            <div class="card2 my-7">
-              <p>
-                Gets id hadir untuk memudahkan pelanggan dalam memenuhi kebutuhan
-                sehari - hari dan mendorong aktivitas perekonomian pengusaha
-                melalui teknologi belanja online
-              </p>
-            </div>
-            <div class="card2">
-              <p>
-                Kami menghubungkan pelanggan dengan berbagai penjual seperti toko
-                sembako, tempat makan, jasa pesan dan antar hingga toko buah dan
-                sayur dengan mudah, cepat dan aman.
-              </p>
-            </div>
+          <div style="text-align: center; margin-top:-35px">
+            <h2>PENJUAL</h2>
+            <p>
+              Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
+              Terima pesanan secara online dan jangkau lebih banyak pelanggan
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <v-col align="center">
+            <img src="img/pembeli.png"/>
           </v-col>
-        </v-row>
+          <div style="text-align: center; margin-top:-35px">
+            <h2>PEMBELI</h2>
+            <p>
+              Nikmati kemudahan untuk belanja dengan satu aplikasi. Gets id
+              hadir untuk membantu belanja kebutuhan harian kamu dengan mudah,
+              cepat dan aman.
+            </p>
+          </div>
+        </div>
+      </v-row>
+    </div>
+    <div class="fourth">
+      <div style="text-align: center" class="display-1">Tentang Kami</div>
+      <v-row align="center">
+        <v-col xs6>
+          <img style="width:100%; background-position: 50% 50%;" src="img/storefront.png"/>
+        </v-col>
+        <v-col xs6>
+          <div class="card2 my-7" style="margin-left: -50px;">
+            <p style="font-size: 25px;">
+              Gets id hadir untuk memudahkan pelanggan dalam memenuhi kebutuhan
+              sehari - hari dan mendorong aktivitas perekonomian pengusaha
+              melalui teknologi belanja online
+            </p>
+          </div>
+          <div class="card2" style="margin-left: -50px;">
+            <p style="font-size: 25px;">
+              Kami menghubungkan pelanggan dengan berbagai penjual seperti toko
+              sembako, tempat makan, jasa pesan dan antar hingga toko buah dan
+              sayur dengan mudah, cepat dan aman.
+            </p>
+          </div>
+        </v-col>
+      </v-row>
+    </div>
+    <svg style="margin-bottom: -200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+            d="M0,320L120,304C240,288,480,256,720,250.7C960,245,1200,267,1320,277.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+    </svg>
+    <div style="background-color: #6ac665; padding-top: 200px; padding-bottom: 50px;">
+      <div class="fifth"
+           style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 200px; margin-right: 200px;">
+        <div class="block-footer-1">
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Informasi </p>
+          <p style="color: white; font-size: 20px;">Layanan Kami</p>
+          <p style="color: white; font-size: 20px;">Karir</p>
+          <p style="color: white; font-size: 20px;">Blog</p>
+          <p style="color: white; font-size: 20px;">Undang Teman</p>
+        </div>
+        <div class="block-footer-1">
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Bantuan </p>
+          <p style="color: white; font-size: 20px;">FAQ</p>
+          <p style="color: white; font-size: 20px;">Syarat dan Ketentuan</p>
+          <p style="color: white; font-size: 20px;">Kebijakan Privasi</p>
+        </div>
+        <div class="block-footer-1">
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Contact Us </p>
+          <p style="color: white; font-size: 20px;">+62 857-4733-8591</p>
+          <p style="color: white; font-size: 20px;">getsid.app@gmail.com</p>
+        </div>
+        <div class="block-footer-1">
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Address </p>
+          <p style="color: white; font-size: 20px;">Semarang, Central Java</p>
+        </div>
+        <div class="block-footer-1">
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Social </p>
+          <p style="color: white; font-size: 20px;"></p>
+        </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -187,6 +226,7 @@ export default {
     line-height: 55px;
     color: #5A5B5B;
   }
+
   .txt {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -194,12 +234,11 @@ export default {
     line-height: 36px;
     color: #5A5B5B;
   }
+
   .top-landing {
-    min-height: 1080px;
+    min-height: 900px;
     min-width: 1024px;
-    width: 100%;
-    height: auto;
-    background: url("../assets/landing-bg.jpg") no-repeat center center;
+    background: url("../assets/landing-bg.jpg") no-repeat 70% 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -228,7 +267,7 @@ export default {
     color: white;
   }
 
-  .link-group  {
+  .link-group {
     padding-top: 20px;
     margin-left: 23px;
   }
@@ -252,49 +291,55 @@ export default {
     font-size: 25px;
     color: #5A5B5B;
   }
+
   .second {
-  height: 400px;
-  padding: 100px 0px;
-  text-align: center;
-  color: white;
-  overflow: visible;
-  background-color: #6ac665;
-  border-bottom-left-radius: 50% 100px;
-  border-bottom-right-radius: 50% 100px;
-}
-.card {
-  width: 350px;
-  height: 408px;
-  padding: 10px 20px;
-  background: linear-gradient(
+    height: 400px;
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+    overflow: visible;
+    background-color: #6ac665;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+  }
+
+  .card {
+    width: 350px;
+    height: 408px;
+    padding: 10px 20px;
+    background: linear-gradient(
       360deg,
       #ffffff 0%,
       rgba(255, 255, 255, 0) 196.71%
     ),
     #4aae48;
-  box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
-  border-radius: 15px;
-}
-.card2 {
-  width: 635px;
-  padding: 60px;
-  background: #ffffff;
-  box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
-  border-radius: 15px;
-}
-.card3 {
-  width: 375px;
-  height: 121px;
+    box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
+    border-radius: 15px;
+  }
 
-  background: #388659;
-  box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
-  border-radius: 15px;
-}
-.third {
-  margin-top: -150px;
-}
-.fourth {
-  margin-top: 200px;
-}
+  .card2 {
+    width: 635px;
+    padding: 60px;
+    background: #ffffff;
+    box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
+    border-radius: 15px;
+  }
+
+  .card3 {
+    width: 375px;
+    height: 121px;
+
+    background: #388659;
+    box-shadow: 0px 8px 16px rgba(74, 174, 72, 0.25);
+    border-radius: 15px;
+  }
+
+  .third {
+    margin-top: -100px;
+  }
+
+  .fourth {
+    margin-top: 200px;
+  }
 
 </style>
