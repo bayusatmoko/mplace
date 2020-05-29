@@ -139,11 +139,7 @@
         </v-col>
       </v-row>
     </div>
-    <svg style="margin-bottom: -200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-            d="M0,320L120,304C240,288,480,256,720,250.7C960,245,1200,267,1320,277.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
-    </svg>
-    <div style="background-color: #6ac665; padding-top: 200px; padding-bottom: 50px;">
+    <div class="rectangle" style="padding-top:150px;">
       <div class="fifth"
            style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 200px; margin-right: 200px;">
         <div class="block-footer-1">
@@ -243,6 +239,15 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 1522.98px;
+    height: 465.51px;
+    left: -1px;
+    top: 2905px;
+    background: url("../assets/Rectangle.png");
   }
 
   .gplay {
