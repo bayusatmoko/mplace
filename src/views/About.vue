@@ -165,7 +165,7 @@
           <p style="color: white; font-size: 20px;">Semarang, Central Java</p>
         </div>
         <div class="block-footer-1">
-          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Social Media</p>
+          <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Social </p>
           <p style="color: white; font-size: 20px;"></p>
         </div>
       </div>
