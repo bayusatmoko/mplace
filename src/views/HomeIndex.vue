@@ -11,7 +11,7 @@ import HomeMobile from './HomeMobile.vue'
 import { mapGetters } from 'vuex'
 
 export default {
-  name: 'HomeIndexx',
+  name: 'HomeIndex',
   components: {
     HomeDesktop,
     HomeMobile
