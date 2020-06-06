@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="height: 2000px;">
     <v-row>
       <v-col cols="12 text-center" class="title-buy"><h3>Belanja Apa Hari Ini ?</h3></v-col>
     </v-row>
@@ -26,7 +26,7 @@
     <v-row>
       <v-col cols="12 text-center">
         <div class="timer-mobile"
-             style="height: 100%; width: 80%; border-radius: 15px; margin: 0 auto; font-size: 2em">
+             style="height: 100%; width: 60%; border-radius: 15px; margin: 0 auto;">
           <Timer
             starttime="Jul 5, 2020 00:37:25"
             endtime="Jul 8, 2020 00:37:25"
@@ -49,10 +49,10 @@
     </v-row>
     <v-row style="background-color: #6AC665; margin-top: -40px;">
       <v-col cols="12 text-center" style="color: white">
-        <h3 style="margin-top: 10%">Layanan Kami</h3>
+        <h3 style="margin-top: 20%; font-size: 24px;">Layanan Kami</h3>
       </v-col>
-      <v-col cols="12 text-center">
-        <p style="font-size: 20px; color: white; padding-bottom: 15%">
+      <v-col cols="12 text-center" style="margin-top: -5%">
+        <p style="font-size: 18px; color: white; padding-bottom: 15%; line-height: 36px;">
           Kami meng hubungkan pelanggan dengan para penjual untuk melakukan
           transaksi kebutuhan sehari - hari melalui empat layanan unggulan
           yaitu Gets Food, Gets Fresh, Gets Daily, dan Gets Service
@@ -63,12 +63,12 @@
       <v-col cols="6 text-center">
         <div class="card">
           <v-col>
-            <img style="width: 60%" src="img/penjual.png"/>
+            <img alt="penjual" style="width: 60%" src="img/penjual.png"/>
           </v-col>
           <v-col>
-            <div style="text-align: center; margin-top:-35px">
-              <h4 style="margin-top: 1%">PENJUAL</h4>
-              <p style="font-size: 10px;">
+            <div style="text-align: center; margin-top:-10%">
+              <h5 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PENJUAL</h5>
+              <p style="font-size: 10px; padding-bottom: 5%">
                 Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
                 Terima pesanan secara online dan jangkau lebih banyak pelanggan
               </p>
@@ -79,27 +79,28 @@
       <v-col cols="6 text-center">
         <div class="card">
           <v-col>
-            <img style="width: 60%" src="img/penjual.png"/>
+            <img alt="pembeli" style="width: 60%; margin-bottom: 20%" src="img/pembeli.png"/>
           </v-col>
           <v-col>
-            <div style="text-align: center; margin-top:-35px">
-              <h4 style="margin-top: 1%">PENJUAL</h4>
-              <p style="font-size: 10px;">
-                Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
-                Terima pesanan secara online dan jangkau lebih banyak pelanggan
+            <div style="text-align: center; margin-top:-35%">
+              <h5 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PEMBELI</h5>
+              <p style="font-size: 10px; padding-bottom: 5%">
+                Nikmati kemudahan untuk belanja dengan satu aplikasi. Gets id
+                hadir untuk membantu belanja kebutuhan harian kamu dengan mudah,
+                cepat dan aman.
               </p>
             </div>
           </v-col>
         </div>
       </v-col>
     </v-row>
-    <v-row style="margin-top: 20%">
+    <v-row style="margin-top: 10%">
       <v-col cols="12 text-center">
-        <h4>Tentang Kami</h4>
+        <h4 style="font-family: Montserrat,monospace; font-weight: 600; color: #5A5B5B;">Tentang Kami</h4>
       </v-col>
       <v-col cols="12 text-center">
         <div class="card2 my-7">
-          <p style="font-size: 20px;">
+          <p style="font-family: Montserrat,monospace; font-size: 18px;">
             Gets id hadir untuk memudahkan pelanggan dalam memenuhi kebutuhan
             sehari - hari dan mendorong aktivitas perekonomian pengusaha
             melalui teknologi belanja online
@@ -108,7 +109,7 @@
       </v-col>
       <v-col cols="12 text-center">
         <div class="card2">
-          <p style="font-size: 20px;">
+          <p style="font-family: Montserrat,monospace; font-size: 18px;">
             Kami menghubungkan pelanggan dengan berbagai penjual seperti toko
             sembako, tempat makan, jasa pesan dan antar hingga toko buah dan
             sayur dengan mudah, cepat dan aman.
@@ -116,33 +117,33 @@
         </div>
       </v-col>
     </v-row>
-    <v-row style="background-color: #6AC665; display: flex; flex-direction: row; margin-top: 20%; padding-top: 15%">
+    <v-row style="background-color: #6AC665; display: flex; flex-direction: row; margin-top: 20%; padding-top: 15%;">
       <v-col cols="6">
-        <h4 style="color: white">Informasi</h4>
+        <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Informasi</h4>
         <li>Layanan Kami</li>
         <li>Karir</li>
         <li>Blob</li>
         <li>Undang Teman</li>
       </v-col>
       <v-col cols="6">
-        <h4 style="color: white">Bantuan</h4>
+        <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Bantuan</h4>
         <li>FAQ</li>
         <li>Syarat dan Ketentuan</li>
         <li>Kebijakan Privasi</li>
       </v-col>
       <v-col cols="6">
-        <h4 style="color: white">Contact Us</h4>
+        <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Contact Us</h4>
         <li>+62 857-4753-8591</li>
-        <li>getsid.app@gmail.comr</li>
+        <li>getsid.app@gmail.com</li>
       </v-col>
       <v-col cols="6">
-        <h4 style="color: white">Address</h4>
-        <p>Semarang, Central Java</p>
+        <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px">Address</h4>
+        <p style="color: white">Semarang, Central Java</p>
       </v-col>
       <v-col cols="12 text-center">
-        <h4 style="color: white">Social</h4>
+        <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Social</h4>
       </v-col>
-      <v-col cols="2"></v-col>
+      <v-col cols="2"/>
       <v-col cols="2 text-center">
         <img src="../assets/instagram.png" alt="">
       </v-col>
@@ -203,7 +204,7 @@ export default {
 <style scoped>
   .card {
     width: 100%;
-    height: 100%;
+    height: 90%;
     background: linear-gradient(
       360deg,
       #ffffff 0%,
@@ -222,12 +223,14 @@ export default {
   }
 
   li {
+    font-family: Montserrat,serif;
+    font-size: 14px;
     list-style-type: none;
     color: white;
   }
 
   .title-buy {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -237,9 +240,9 @@ export default {
   }
 
   .txt {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     line-height: 36px;
     /* or 200% */
@@ -247,6 +250,14 @@ export default {
     text-align: center;
 
     color: #5A5B5B;
+  }
+
+  .cs-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 12px;
   }
 
 </style>

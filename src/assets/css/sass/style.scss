@@ -66,6 +66,7 @@
 }
 
 .timer-mobile {
+    padding: 10px;
     font-size: 20px;
     color: white;
     text-align:center;
@@ -88,14 +89,13 @@
         //@include margin-start(5);
         //display: inline-block;
         opacity: 0.8;
-        width: 60px;
+        width: 25px;
       }
     }
-    .number{
-      padding: 0 5px;
+    .number {
       border-radius: 5px;
       display: inline-block;
-      width: 60px;
+      width: 25px;
       text-align: center;
     }
     .separator{

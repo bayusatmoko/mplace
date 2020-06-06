@@ -48,7 +48,7 @@ export default {
   },
   mounted () {
     this.setDevice('desktop')
-    if (window.innerWidth <= 1000) {
+    if (window.innerWidth <= 1080) {
       this.setDevice('mobile')
     }
     window.addEventListener('resize', this.onResize)

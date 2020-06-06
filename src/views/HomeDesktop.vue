@@ -26,7 +26,7 @@
           style="height: 200px;"
         >
           <v-col cols="1"/>
-          <v-col cols="5">
+          <v-col cols="4">
             <span class="question">Belanja Apa Hari Ini?</span>
             <div class="pt-8">
               <span class="txt font-weight-bold">Gets id </span>
@@ -44,9 +44,9 @@
               <p class="cs-text">Coming Soon</p>
             </div>
           </v-col>
-          <v-col cols="2"/>
-          <v-col cols="3">
-            <p class="cs-text-right text-center" style="margin-top: -35px;" v-show="notResize">Coming Soon</p>
+          <v-col cols="3"/>
+          <v-col cols="3 text-center">
+            <p class="cs-text-right" style="margin-top: -35px; margin-left: 10%;" v-show="notResize">Coming Soon</p>
             <div class="timer"
                  style="height: 120px; width: 380px; margin: 0 auto; border-radius: 15px; display:flex; justify-content: center; align-items: center;"
                  v-show="notResize">
@@ -93,8 +93,8 @@
             <img src="img/penjual.png"/>
           </v-col>
           <div style="text-align: center; margin-top:-35px">
-            <h2>PENJUAL</h2>
-            <p>
+            <h2 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PENJUAL</h2>
+            <p style="padding-bottom: 20%">
               Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
               Terima pesanan secara online dan jangkau lebih banyak pelanggan
             </p>
@@ -102,11 +102,11 @@
         </div>
         <div class="card">
           <v-col align="center">
-            <img src="img/pembeli.png"/>
+            <img style="margin-bottom: 13%" src="img/pembeli.png"/>
           </v-col>
           <div style="text-align: center; margin-top:-35px">
-            <h2>PEMBELI</h2>
-            <p>
+            <h2 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PEMBELI</h2>
+            <p style="padding-bottom: 20%">
               Nikmati kemudahan untuk belanja dengan satu aplikasi. Gets id
               hadir untuk membantu belanja kebutuhan harian kamu dengan mudah,
               cepat dan aman.
@@ -233,7 +233,7 @@ export default {
 
   .top-landing {
     min-height: 900px;
-    min-width: 1024px;
+    min-width: fit-content;
     background: url("../assets/landing-bg.jpg") no-repeat 70% 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -310,7 +310,7 @@ export default {
 
   .card {
     width: 350px;
-    height: 408px;
+    height: 450px;
     padding: 10px 20px;
     background: linear-gradient(
       360deg,
