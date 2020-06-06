@@ -1,15 +1,20 @@
 <template>
-  <HomeDesktop v-if="currentDevice === 'desktop'" />
+  <div>
+    <HomeDesktop v-if="currentDevice === 'desktop'" />
+    <HomeMobile v-if="currentDevice === 'mobile'" />
+  </div>
 </template>
 
 <script>
-import HomeDesktop from './About.vue'
+import HomeDesktop from './HomeDesktop.vue'
+import HomeMobile from './HomeMobile.vue'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'HomeIndex',
   components: {
-    HomeDesktop
+    HomeDesktop,
+    HomeMobile
   },
   computed: {
     ...mapGetters(['currentDevice'])
