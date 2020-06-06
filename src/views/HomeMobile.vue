@@ -137,7 +137,7 @@
       </v-col>
       <v-col cols="6">
         <h4 style="color: white">Address</h4>
-        <li>Semarang, Central Java</li>
+        <p>Semarang, Central Java</p>
       </v-col>
       <v-col cols="12 text-center">
         <h4 style="color: white">Social</h4>
