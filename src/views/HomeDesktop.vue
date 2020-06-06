@@ -140,36 +140,40 @@
       </v-row>
     </div>
     <div class="rectangle" style="padding-top:150px;">
-      <div class="fifth"
-           style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 200px; margin-right: 200px;">
-        <div class="block-footer-1">
+    <v-row style="margin-left: -100px;">
+      <v-col cols="2"></v-col>
+        <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Informasi </p>
-          <p style="color: white; font-size: 20px;">Layanan Kami</p>
-          <p style="color: white; font-size: 20px;">Karir</p>
-          <p style="color: white; font-size: 20px;">Blog</p>
-          <p style="color: white; font-size: 20px;">Undang Teman</p>
-        </div>
-        <div class="block-footer-1">
+          <p style="color: white; font-size: 15px;">Layanan Kami</p>
+          <p style="color: white; font-size: 15px;">Karir</p>
+          <p style="color: white; font-size: 15px;">Blog</p>
+          <p style="color: white; font-size: 15px;">Undang Teman</p>
+        </v-col>
+        <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Bantuan </p>
-          <p style="color: white; font-size: 20px;">FAQ</p>
-          <p style="color: white; font-size: 20px;">Syarat dan Ketentuan</p>
-          <p style="color: white; font-size: 20px;">Kebijakan Privasi</p>
-        </div>
-        <div class="block-footer-1">
+          <p style="color: white; font-size: 15px;">FAQ</p>
+          <p style="color: white; font-size: 15px;">Syarat dan Ketentuan</p>
+          <p style="color: white; font-size: 15px;">Kebijakan Privasi</p>
+        </v-col>
+        <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Contact Us </p>
-          <p style="color: white; font-size: 20px;">+62 857-4733-8591</p>
-          <p style="color: white; font-size: 20px;">getsid.app@gmail.com</p>
-        </div>
-        <div class="block-footer-1">
+          <p style="color: white; font-size: 15px;">+62 857-4733-8591</p>
+          <p style="color: white; font-size: 15px;">getsid.app@gmail.com</p>
+        </v-col>
+        <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Address </p>
-          <p style="color: white; font-size: 20px;">Semarang, Central Java</p>
-        </div>
-        <div class="block-footer-1">
+          <p style="color: white; font-size: 15px;">Semarang, Central Java</p>
+        </v-col>
+        <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Social </p>
-          <p style="color: white; font-size: 20px;"></p>
-        </div>
-      </div>
-    </div>
+          <p><img src="../assets/instagram.png" alt=""></p>
+          <p><img src="../assets/facebook.png" alt=""></p>
+          <p><img src="../assets/twitter.png" alt=""></p>
+          <p><img src="../assets/youtube.png" alt=""></p>
+          <p><img style="margin-left: 10px; margin-top: -80px;" src="../assets/youtube-play-button.png" alt=""></p>
+        </v-col>
+    </v-row>
+  </div>
   </div>
 </template>
 
@@ -195,7 +199,6 @@ export default {
       }.bind(this), 2000)
     },
     onResize () {
-      console.log(window.innerWidth)
       if (window.innerWidth < 1000) {
         this.notResize = false
       }
@@ -242,11 +245,7 @@ export default {
   }
 
   .rectangle {
-    position: absolute;
-    width: 1522.98px;
-    height: 465.51px;
-    left: -1px;
-    top: 2905px;
+    width: 100%;
     background: url("../assets/Rectangle.png");
   }
 

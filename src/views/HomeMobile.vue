@@ -68,7 +68,7 @@
           <v-col>
             <div style="text-align: center; margin-top:-10%">
               <h5 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PENJUAL</h5>
-              <p style="font-size: 10px; padding-bottom: 5%">
+              <p style="font-size: 10px; padding-bottom: 5%; line-height: 19px;">
                 Tingkatkan transaksi hingga 2x lipat dengan aplikasi Gets id.
                 Terima pesanan secara online dan jangkau lebih banyak pelanggan
               </p>
@@ -84,7 +84,7 @@
           <v-col>
             <div style="text-align: center; margin-top:-35%">
               <h5 style="font-family: Montserrat,monospace; font-weight: bold; color: #5A5B5B;">PEMBELI</h5>
-              <p style="font-size: 10px; padding-bottom: 5%">
+              <p style="font-size: 10px; padding-bottom: 5%; line-height: 19px;">
                 Nikmati kemudahan untuk belanja dengan satu aplikasi. Gets id
                 hadir untuk membantu belanja kebutuhan harian kamu dengan mudah,
                 cepat dan aman.
