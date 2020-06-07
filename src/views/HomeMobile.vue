@@ -133,8 +133,8 @@
       </v-col>
       <v-col cols="6">
         <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Contact Us</h4>
-        <li>+62 857-4753-8591</li>
-        <li>getsid.app@gmail.com</li>
+        <li><a href="https://api.whatsapp.com/send?phone=6285747338591" target="_blank">+62 857-4733-8591</a></li>
+        <li>team@gets.id</li>
       </v-col>
       <v-col cols="6">
         <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px">Address</h4>

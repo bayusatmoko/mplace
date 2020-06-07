@@ -157,8 +157,8 @@
         </v-col>
         <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Contact Us </p>
-          <p style="color: white; font-size: 15px;">+62 857-4733-8591</p>
-          <p style="color: white; font-size: 15px;">getsid.app@gmail.com</p>
+          <a href="https://api.whatsapp.com/send?phone=6285747338591" target="_blank" style="color: white; font-size: 15px;">+62 857-4733-8591</a>
+          <p style="color: white; font-size: 15px;">team@gets.id</p>
         </v-col>
         <v-col cols="2">
           <p style="color: white; padding-bottom: 10px; font-size: 20px; font-weight: bold;"> Address </p>
