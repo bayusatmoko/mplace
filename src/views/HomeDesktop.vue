@@ -236,7 +236,7 @@ export default {
 
   .top-landing {
     min-height: 900px;
-    min-width: fit-content;
+    min-width: 1366px;
     background: url("../assets/landing-bg.jpg") no-repeat 70% 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
