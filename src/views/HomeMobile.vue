@@ -133,7 +133,7 @@
       </v-col>
       <v-col cols="6">
         <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Contact Us</h4>
-        <li><a href="https://api.whatsapp.com/send?phone=6285747338591" target="_blank">+62 857-4733-8591</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=6285641536548" target="_blank">+62 856-4153-6548</a></li>
         <li>team@gets.id</li>
       </v-col>
       <v-col cols="6">
