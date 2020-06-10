@@ -139,7 +139,7 @@
         </v-col>
       </v-row>
     </div>
-    <div class="rectangle" style="padding-top:150px;">
+    <div class="rectangle" style="padding-top:150px; margin-top: 237px;">
     <v-row style="margin-left: -100px;">
       <v-col cols="2"></v-col>
         <v-col cols="2">
