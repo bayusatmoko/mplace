@@ -122,7 +122,7 @@
         <h4 style="color: white; font-family: Montserrat,serif; font-weight: bold; font-style: normal; font-size: 21px;">Informasi</h4>
         <li>Layanan Kami</li>
         <li>Karir</li>
-        <li>Blob</li>
+        <li>Blog</li>
         <li>Undang Teman</li>
       </v-col>
       <v-col cols="6">

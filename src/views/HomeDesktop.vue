@@ -79,7 +79,7 @@
       <v-row justify="center">
         <v-col cols="8">
           <p style="font-size: 25px;">
-            Kami meng hubungkan pelanggan dengan para penjual untuk melakukan
+            Kami menghubungkan pelanggan dengan para penjual untuk melakukan
             transaksi kebutuhan sehari - hari melalui empat layanan unggulan
             yaitu Gets Food, Gets Fresh, Gets Daily, dan Gets Service
           </p>
