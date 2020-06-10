@@ -183,7 +183,6 @@ export default {
       }.bind(this), 2000)
     },
     onResize () {
-      console.log(window.innerWidth)
       if (window.innerWidth < 1000) {
         this.notResize = false
       }
